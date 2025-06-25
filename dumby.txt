@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neutral Nature</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      color: #2e2e2e;
+      background: #fafafa;
+    }
+    header {
+      background: linear-gradient(to right, #a8edea, #fed6e3);
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .about, .gallery {
+      margin-bottom: 3rem;
+    }
+    footer {
+      background: #e0e0e0;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Neutral Nature</h1>
+    <p>Where calm meets the wild</p>
+  </header>
+
+  <section class="about">
+    <h2>About the Project</h2>
+    <p>
+      Neutral Nature is a visual journey through landscapes, abstractions, and organic stillness. Each image balances minimalism with complexity, evoking a sense of quiet awe. This project explores the interplay between natural symmetry and digital abstraction.
+    </p>
+    <img src="https://source.unsplash.com/900x500/?nature,calm" alt="Peaceful natural scenery" />
+  </section>
+
+  <section class="gallery">
+    <h2>Gallery Preview</h2>
+    <p>
+      These pieces represent the tonal balance between neutrality and expression. Ideal as prints, screen savers, or meditative visual content.
+    </p>
+    <img src="https://source.unsplash.com/900x500/?abstract,nature" alt="Abstract nature image" />
+    <img src="https://source.unsplash.com/900x500/?forest,mist" alt="Forest in mist" />
+  </section>
+
+  <footer>
+    © 2025 Neutral Nature · Curated with intention and aesthetic clarity.
+  </footer>
+</body>
+</html>
